@@ -1,9 +1,9 @@
 
 def neighbors(universe, width, height, x, y):
-    minx = 0;
-    maxx = width - 2;
-    miny = 0;
-    maxy = height - 2;
+    minx = 0
+    maxx = width - 2
+    miny = 0
+    maxy = height - 2
     count = 0
     if x > minx and y > miny and is_alive(universe, width, x - 1, y - 1):
         count = count + 1
